@@ -56,9 +56,9 @@ namespace memcached_client_test.Controllers
                 var key = "memcached-key-" + i;
                 int testCacheSeconds = 120;
                 var result = await _memcachedClient.GetAsync<string>(key);
-                if (result != null)
+                if (result.Value != null)
                 {
-                    Console.WriteLine("Hit!!!! : " + result);
+                    Console.WriteLine("Hit!!!! : " + result.Value);
                 }
                 else
                 {
