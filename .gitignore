@@ -1,0 +1,3 @@
+.vs
+memcached-client-test/bin/*
+memcached-client-test/obj/*
