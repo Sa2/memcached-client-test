@@ -1,3 +1,5 @@
 .vs
 memcached-client-test/bin/*
 memcached-client-test/obj/*
+memcached-console-app/bin/*
+memcached-console-app/obj/*
